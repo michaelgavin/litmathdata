@@ -1,0 +1,19 @@
+Package: litmathdata
+Title: Literary Mathematics Supplementary Data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Gavin",
+           role = c("aut", "cre"),
+           email = "michael.a.gavin@gmail.com",
+           comment = c(ORCID = "0000-0001-6529-110X"))
+Description: Data supplementing the monograph
+    Literary Mathematics (Stanford UP, 2022). This package includes 
+    all data needed to replicate findings presented in the 
+    book and related tutorials.
+Imports: 
+    Matrix
+License: Public Domain ("The Unlicense")
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
