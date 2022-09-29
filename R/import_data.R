@@ -72,23 +72,23 @@ import_data = function(dataset) {
     return(get(dataset))
   }
   if (dataset == "keyword_doc") {
-    load(paste(system.file('data', package = 'litmathdata'), "/", 
+    load(paste(system.file('inst/extdata', package = 'litmathdata'), "/", 
                "kd1.rda", sep = ""))
     keyword_doc = kd
     
-    load(paste(system.file('data', package = 'litmathdata'), "/", 
+    load(paste(system.file('inst/extdata', package = 'litmathdata'), "/", 
                "kd2.rda", sep = ""))
     keyword_doc = cbind(keyword_doc, kd)
     
-    load(paste(system.file('data', package = 'litmathdata'), "/", 
+    load(paste(system.file('inst/extdata', package = 'litmathdata'), "/", 
                "kd3.rda", sep = ""))
     keyword_doc = cbind(keyword_doc, kd)
     
-    load(paste(system.file('data', package = 'litmathdata'), "/", 
+    load(paste(system.file('inst/extdata', package = 'litmathdata'), "/", 
                "kd4.rda", sep = ""))
     keyword_doc = cbind(keyword_doc, kd)
     
-    load(paste(system.file('data', package = 'litmathdata'), "/", 
+    load(paste(system.file('inst/extdata', package = 'litmathdata'), "/", 
                "kd5.rda", sep = ""))
     keyword_doc = cbind(keyword_doc, kd)
     
